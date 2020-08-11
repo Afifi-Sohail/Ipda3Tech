@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: 'cairo', sans-serif;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%
+}
+
+.active {
+    color: #233142;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Start Navbar */
+
+nav {
+    background-color: #f8f9fa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+nav .logo {
+    height: 75px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 15px;
+}
+
+nav i {
+    font-size: 40px;
+    color: #3aade6;
+    margin-right: auto;
+    margin-left: 40px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+nav ul {
+    line-height: 3;
+    display: none;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 65px;
+    text-align: right;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+nav ul li a {
+    color: #3aade6
+}
+
+nav ul li a:hover {
+    color: #233142;
+    text-decoration: none;
+}
+
+
+/* End Navbar */
+
+
+/* Start Footer */
+
+footer {
+    background-image: url("../images/footer.jpg");
+    background-size: cover;
+    background-position: bottom;
+    padding: 60px 0
+}
+
+footer .footer-box1 {
+    width: 200px;
+    height: 300px;
+}
+
+footer .footer-box2 {
+    color: #fff;
+    text-align: right;
+    padding-top: 80px
+}
+
+footer .footer-box2 img {
+    width: 60px;
+    height: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -35px;
+}
+
+footer .footer-box2 div {
+    display: inline-block;
+}
+
+footer .footer-box2 div .one-span {
+    font-size: 22px;
+}
+
+footer .footer-box2 div .two-span {
+    display: block;
+    font-size: 15px;
+}
+
+footer .footer-box2 h4 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+footer .footer-box2 i {
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/* End Footer */
+
+
+/* Start Media */
+
+@media (max-width: 991px) {
+    /* Start Who Are We */
+    .who-are-we .who-are-we-box-1 {
+        padding: 0 70px 20px;
+        margin: auto;
+    }
+    .who-are-we .who-are-we-box-2 {
+        margin: auto;
+        text-align: center;
+    }
+    /* End We Are We */
+}
+
+@media (max-width: 767px) {
+    /* Start Footer */
+    footer .footer-box1 {
+        margin: auto;
+    }
+    footer .footer-box2 {
+        margin: auto;
+        text-align: center;
+    }
+    footer .footer-box2 div {
+        text-align: right;
+    }
+    /* End Footer */
+}
+
+
+/* End Media */

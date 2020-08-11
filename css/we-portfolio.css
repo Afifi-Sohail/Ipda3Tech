@@ -1,0 +1,76 @@
+/* Start Content In Portfolio */
+
+.content .bg-content {
+    background-image: url("../images/bg30-Ar1web.gif");
+    padding: 50px 0
+}
+
+.content .bg-content h2 {
+    text-align: right;
+    margin: 0 25px 30px;
+    border-right: 5px solid #3aade6;
+}
+
+.content .bg-content .box {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 30px 5px;
+    box-shadow: 0px 6px 10px 4px #909090;
+}
+
+.content .bg-content .box img {
+    height: auto;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.content .bg-content .box a {
+    margin: 30px 0;
+    font-size: 20px;
+    display: block;
+    color: #000;
+}
+
+.content .bg-content .box a:hover {
+    text-decoration: none;
+}
+
+.pagination {
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.pagination li a:active {
+    background-color: #3aade6;
+    color: #fff;
+}
+
+.pagination li a:focus {
+    background-color: #3aade6;
+    color: #fff;
+}
+
+
+/* End Content In Portfolio*/
+
+
+/* Start Meadia Query */
+
+@media(max-width:991px) {
+    .content .bg-content .box {
+        margin: 30px auto;
+    }
+}
+
+
+/* End Meadia Query */

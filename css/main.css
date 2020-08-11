@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: 'cairo', sans-serif;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%
+}
+
+.active {
+    color: #233142;
+}
+
+.title {
+    margin: 40px auto 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.line-bottom {
+    width: 90px;
+    height: 5px;
+    background-color: #3aade6;
+    display: block !important;
+    margin: 0px auto;
+    border-radius: 3px;
+    margin-bottom: 40px
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Start Banner */
+
+.banner .banner-image {
+    height: 500px;
+    margin-top: 70px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.banner .add-padding {
+    padding: 20px
+}
+
+.banner h3 {
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    z-index: 3;
+    width: 600px;
+    font-size: 38px;
+    text-align: right;
+}
+
+
+/* End Banner */
+
+
+/* Start Who Are We */
+
+.who-are-we .who-are-we-box-1 {
+    padding: 20px
+}
+
+.who-are-we .who-are-we-box-2 {
+    font-size: 25px;
+    padding: 15px;
+}
+
+
+/* End Who Are We */
+
+
+/* Start We Offer */
+
+.we-offer .bg-image {
+    background-image: url("../images/we-offer.png");
+    background-size: cover;
+}
+
+.we-offer .bg-image .box {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 80px 30px;
+    padding: 20px;
+}
+
+.we-offer .bg-image .box img {
+    width: 180px !important;
+    height: 180px;
+    margin: 15px auto;
+}
+
+.we-offer .bg-image .box h4 {
+    color: #3aade6;
+    font-size: 20px;
+}
+
+.we-offer .bg-image .box p {
+    font-size: 17px;
+}
+
+.owl-carousel .owl-nav {
+    text-align: center;
+}
+
+.owl-carousel .owl-nav button {
+    font-size: 35px !important;
+    margin: 0 20px;
+    outline: none;
+    border: none;
+}
+
+
+/* End We Offer */
+
+
+/* Start We Portfolio */
+
+.we-portfolio .bg-image {
+    background-image: url("../images/bg30-Ar1web.gif");
+    padding: 100px 0
+}
+
+.we-portfolio .bg-image .box {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 30px 5px;
+    box-shadow: 0px 6px 10px 4px #909090;
+}
+
+.we-portfolio .bg-image .box img {
+    height: auto;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.we-portfolio .bg-image .box a {
+    margin: 30px 0;
+    font-size: 20px;
+    display: block;
+    color: #000;
+}
+
+.we-portfolio .bg-image .box a:hover {
+    text-decoration: none;
+}
+
+.we-portfolio .bg-image button {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+    outline: none;
+    border: none;
+    width: 225px;
+    color: #fff;
+    background-color: #233142;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 6px 7px #909090;
+}
+
+.we-portfolio .bg-image button a {
+    color: #fff;
+}
+
+.we-portfolio .bg-image button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* End  We Portfolio */
+
+
+/* Start Articles */
+
+.articles .box {
+    padding-right: 0;
+    padding-left: 0;
+    box-shadow: 0px 6px 10px 3px #909090;
+    overflow: hidden;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin: 50px
+}
+
+.articles .box img {
+    height: auto;
+}
+
+.articles .box p {
+    text-align: center;
+    margin: 15px
+}
+
+.articles .box button {
+    margin: 30px;
+    right: 0;
+    width: 100px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #233142;
+    float: right;
+    box-shadow: 1px 1px 4px 1px #909090
+}
+
+.articles .box .eye {
+    width: 100px;
+    margin: 30px 15px;
+    display: inline-block;
+}
+
+.articles .box .eye span {
+    color: #777
+}
+
+.articles .articles-button {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+    outline: none;
+    border: none;
+    width: 225px;
+    color: #fff;
+    background-color: #233142;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 6px 7px #909090;
+}
+
+.articles .box button a,
+.articles .articles-button a {
+    color: #fff
+}
+
+.articles .box button a:hover,
+.articles .articles-button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* End Articles */
+
+
+/* Start Our Customers */
+
+.our-customers .bg-image {
+    background-image: url("../images/our-client-bg.jpg");
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.our-customers .box {
+    text-align: center;
+    margin: 50px 30px;
+    padding: 20px;
+}
+
+.our-customers .box img {
+    width: 180px !important;
+    height: 180px;
+    margin: 15px auto;
+}
+
+.our-customers .owl-carousel .owl-nav {
+    text-align: center;
+    display: block !important;
+}
+
+.our-customers .owl-carousel .owl-nav button {
+    font-size: 35px !important;
+    margin: 0 20px;
+    outline: none;
+    border: none;
+}
+
+
+/* End Our Customers */
+
+
+/* Start Media */
+
+@media (max-width: 991px) {
+    /* Start Who Are We */
+    .who-are-we .who-are-we-box-1 {
+        padding: 0 70px 20px;
+        margin: auto;
+    }
+    .who-are-we .who-are-we-box-2 {
+        margin: auto;
+        text-align: center;
+    }
+    /* End We Are We */
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 25px;
+    }
+    /* Start Banner */
+    .banner h3 {
+        width: 345px;
+        font-size: 34px;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%, 0px);
+    }
+    /* End Banner */
+    /* Start We Portfolio */
+    .we-portfolio .bg-image .box {
+        margin: 30px auto;
+    }
+    /* End We Portfolioe */
+    /* Start Our Customers */
+    .our-customers .bg-image .box {
+        margin: 20px auto
+    }
+    /* End Our Customers */
+}
+
+@media (max-width: 650px) {
+    /* Start We Offer */
+    .we-offer .bg-image .box {
+        margin: 50px;
+    }
+    /* End We Offer */
+}
+
+@media (max-width: 576px) {
+    /* Start Banner */
+    .banner h3 {
+        font-size: 30px;
+        width: 302px
+    }
+    /* End Banner */
+    /* Start Who Are We */
+    .who-are-we .who-are-we-box-2 {
+        font-size: 20px;
+    }
+    /* End We Are We */
+    /* Start Articles */
+    .articles .box button {
+        margin: 15px;
+        width: 90px;
+    }
+    .articles .box .eye {
+        width: 60px;
+        margin: 20px 15px
+    }
+    /* End Articles */
+}
+
+
+/* End Media */

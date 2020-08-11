@@ -1,0 +1,147 @@
+/* Start Articles */
+
+.articles {
+    padding-bottom: 50px;
+}
+
+.articles .bg-articles {
+    background-image: url("../images/articles.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.articles h2 {
+    text-align: right;
+    margin: 60px 25px 30px;
+    border-right: 5px solid #3aade6;
+}
+
+.articles .box {
+    padding-right: 0;
+    padding-left: 0;
+    box-shadow: 0px 6px 10px 3px #909090;
+    overflow: hidden;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin: 50px;
+    background-color: #fff;
+}
+
+.articles .box img {
+    height: auto;
+}
+
+.articles .box p {
+    text-align: center;
+    margin: 15px
+}
+
+.articles .box button {
+    margin: 30px;
+    right: 0;
+    width: 100px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #233142;
+    float: right;
+    box-shadow: 1px 1px 4px 1px #909090
+}
+
+.articles .box button a {
+    color: #fff
+}
+
+.articles .box button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.articles .box .eye {
+    width: 100px;
+    margin: 30px 15px;
+    display: inline-block;
+}
+
+.articles .box .eye span {
+    color: #777
+}
+
+.pagination {
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.pagination li a:active {
+    background-color: #3aade6;
+    color: #fff;
+}
+
+.pagination li a:focus {
+    background-color: #3aade6;
+    color: #fff;
+}
+
+
+/* End Articles */
+
+
+/* Start Read In Articles */
+
+.reade-in-articles {
+    background-image: url("../images/bg30-Ar1web.gif");
+    padding: 50px 0;
+}
+
+.reade-in-articles h2 {
+    text-align: right;
+    margin: 0 25px 30px;
+    border-right: 5px solid #3aade6;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.reade-in-articles .border-ra {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px 2px #909090;
+    margin: auto;
+}
+
+.reade-in-articles .image-articles {
+    width: 400px;
+    margin: 30px auto;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 2px #909090
+}
+
+.reade-in-articles p {
+    text-align: center;
+    font-size: 22px;
+    line-height: 2;
+}
+
+
+/* End Reade In Articles */
+
+
+/* Start Media Query */
+
+@media(max-width:767px) {
+    .reade-in-articles .image-articles {
+        width: 300px;
+    }
+    .reade-in-articles p {
+        font-size: 16px;
+    }
+}
+
+
+/* End Media Query */
