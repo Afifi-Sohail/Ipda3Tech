@@ -37,12 +37,16 @@
 
 /* Start Card Carousel */
 
+.up-card {
+    overflow: hidden;
+}
+
 .card-carousel {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    margin: 50px 0;
+    margin: 50px 0 100px;
     left: 0 !important;
 }
 
@@ -59,6 +63,7 @@
     background: #2e5266;
     background: linear-gradient(to top, #2e5266, #6e8898);
     transition: 1s;
+    margin: -30px;
 }
 
 .card-carousel .my-card:after {

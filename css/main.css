@@ -54,7 +54,7 @@ img {
 }
 
 .banner .add-padding {
-    padding: 20px
+    padding: 35px
 }
 
 .banner h3 {
@@ -74,7 +74,7 @@ img {
 /* Start Who Are We */
 
 .who-are-we .who-are-we-box-1 {
-    padding: 20px
+    padding: 20px 20px 20px 30px;
 }
 
 .who-are-we .who-are-we-box-2 {
@@ -102,7 +102,7 @@ img {
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     margin: 80px 30px;
-    padding: 20px;
+    padding: 5px;
 }
 
 .we-offer .bg-image .box img {
@@ -342,6 +342,9 @@ img {
         text-align: center;
         left: 50%;
         transform: translate(-50%, 0px);
+    }
+    .banner .add-padding {
+        display: none;
     }
     /* End Banner */
     /* Start We Portfolio */
